@@ -40,7 +40,7 @@ def TestForPrime(numtotest, debug=False, advanced=False):
             if debug != False:
                 bar = c
                 bar = int(bar)
-                print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgress: [" + "X" * (bar+1) + "-" * (19-bar) + "]")
+                print("\rProgress: [" + "X" * (bar+1) + "-" * (19-bar) + "]")
             if prime == False:
                 break
     else:
